@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sprint_6_Positive_Demo_testng.xml">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Sprint_6_Positive_Negative.e_TransactionsAllActions"/>
+      <class name="Sprint_6_Positive_Negative.f_TradingAllActions"/>
+      <class name="Sprint_6_Positive_Negative.a_DashboardAllActions"/>
+      <class name="Sprint_6_Positive_Negative.d_NotificationAllActions"/>
+      <class name="Sprint_6_Positive_Negative.b_UsersAllActions"/>
+      <class name="Sprint_6_Positive_Negative.g_EventsAllActions"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Sprint_6_Positive_Demo_testng.xml -->

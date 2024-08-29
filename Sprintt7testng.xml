@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Suite">
+  <test thread-count="1" parallel="tests" name="Test">
+    <classes>
+      <class name="Sprint_7_Positive.a_Adding_CategorySubCategoryProduct_In_Fms"/>
+      <class name="Sprint_7_Positive.b_MatrikaLoginAndCheckingProductAvailable"/>
+      <class name="Sprint_7_Positive.c_Deleting_CategorySubCategoryAndProduct_In_Fms"/>
+      <class name="Sprint_7_Positive.d_MatrikaLoginAndCheckingProductDeleted"/>
+      <class name="Sprint_7_Positive.e_Adding_Giftcard_In_FMS"/>
+      <class name="Sprint_7_Positive.f_CheckingGiftCardInMatrika"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

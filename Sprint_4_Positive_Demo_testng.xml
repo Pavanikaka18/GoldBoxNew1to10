@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Suite">
+  <test thread-count="1" parallel="tests" name="Test">
+    <classes>
+      <class name="sprint_4_Giftcards_Positive.f_Giftcards_AllActions"/>
+      <class name="sprint_4_Banners_Positive.a_Banners_E_ComBanners"/>
+      <class name="sprint_4_Coupons_Positive.d_AdminCoupons_AllActions"/>
+      <class name="sprint_4_Banners_Positive.c_Banners_SplashBanners"/>
+      <class name="sprint_4_Coupons_Positive.e_CouponList_AllActions"/>
+      <class name="sprint_4_Banners_Positive.b_Banners_MainBanners"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

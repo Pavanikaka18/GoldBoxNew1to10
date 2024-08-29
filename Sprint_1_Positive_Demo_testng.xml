@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Suite">
+  <test thread-count="1" parallel="tests" name="Test">
+    <classes>
+      <class name="sprint_1_Positive.aSprint_1_LoginAndLogout_Demo_FMS"/>
+      <class name="sprint_1_Positive.eSprint_1_VerifyingTheSubscribedUserAndPayingMonthlySchemePayment_Demo_FMS"/>
+      <class name="sprint_1_Positive.bSprint_1_LoginLogout_Demo_User"/>
+      <class name="sprint_1_Positive.cSprint_1_SchemeAllActions_Demo_FMS"/>
+      <class name="sprint_1_Positive.dSprint_1_UserSchemeSubscription_Demo_User"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

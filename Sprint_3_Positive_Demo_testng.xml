@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Suite">
+  <test thread-count="1" parallel="tests" name="Test">
+    <classes>
+      <class name="sprint_3_Positive.B_ECommerce_Sub_Category_All_Actions"/>
+      <class name="sprint_3_Positive.D_ECommerce_Brands_All_Actions"/>
+      <class name="sprint_3_Positive.E_ECommerce_Orders_All_Actions"/>
+      <class name="sprint_3_Positive.A_ECommerce_Category_All_Actions"/>
+      <class name="sprint_3_Positive.F_ECom_Transactions_All_Actions"/>
+      <class name="sprint_3_Positive.C_ECommerce_Product_All_Actions"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

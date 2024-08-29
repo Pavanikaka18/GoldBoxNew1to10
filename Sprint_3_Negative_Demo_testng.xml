@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sprint_3_Negative_Demo_testng.xml">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="sprint_3_Negative.D_E_Commerce_Products"/>
+      <class name="sprint_3_Negative.C_E_Commerce_Sub_Categories"/>
+      <class name="sprint_3_Negative.A_E_Commerce_LoginErrors"/>
+      <class name="sprint_3_Negative.F_E_Commerce_Orders"/>
+      <class name="sprint_3_Negative.G_E_Commerce_Transactions"/>
+      <class name="sprint_3_Negative.B_E_Commerce_Categories"/>
+      <class name="sprint_3_Negative.E_E_Commerce_Brands"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Sprint_3_Negative_Demo_testng.xml -->
